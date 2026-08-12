@@ -1,7 +1,31 @@
 html {
-    background-color: black;
+    background-color: rgb(207, 6, 6);
+    display: flex;
+    justify-self: center;
+    align-items: center;
 }
 
-h1 {
-    color: white;
+#clickButton {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 70pt;
+    margin: 0;
+    border: 10pt solid rgba(212, 65, 7, 0.936);
+}
+
+#clickButton:hover {
+    cursor: pointer;
+    background-color: yellow;
+    color: orange;
+}
+
+#clickButton:active {
+    background-color: orange;
+    color: yellow;
+}
+
+#numberElemnt {
+    padding: 0;
+    margin: 100px 0;
+    border: 10px solid black;
+    color: red;
 }
